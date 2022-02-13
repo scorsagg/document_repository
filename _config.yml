@@ -1,5 +1,5 @@
-title: Architect theme
-description: Architect is a theme for GitHub Pages.
-show_downloads: true
+title: Document Repository
+description: This page is meant to collect all the pictures/documents/links/videos and other related material that assist in learning and understanding the lectures and exmaples during the course.
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-architect
