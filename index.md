@@ -1,9 +1,10 @@
 ---
 layout: default
 ---
+# Study Material
+    
+    [Links](/assets/study-material/html/links.html)
 
-[Links to study material](/assets/study-material/html/links.html)
+    [Images](/assets/study-material/html/images.html)
 
-[Study material as images](/assets/study-material/html/images.html)
-
-[Study material as files](/assets/study-material/html/docfiles.html)
+    [Files](/assets/study-material/html/docfiles.html)
