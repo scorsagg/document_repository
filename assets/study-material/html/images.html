@@ -2,15 +2,53 @@
 <html>
 <head>
 <title>Study Material - Images</title>
-<link rel="stylesheet" href="../../css/style.scss">
+
+<style>
+    img {
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: 150px; /* Set a small width */
+}
+
+/* Add a hover effect (blue shadow) */
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 15%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+</style>
 </head>
 
 <body>
 <!-- The grid: four columns -->
 <div class="row">
     <div class="column">
-        <a target="_blank" href="../images/Python-String-Methods.png">
-            <img src="../images/Python-String-Methods.png" alt="Python String Methods">
+        <a target="_blank" href="../images/Free-Python-Tools.png">
+            <img src="../images/Free-Python-Tools.png" alt="Free Python Tools">
         </a>
     </div>
     <div class="column">
@@ -19,13 +57,13 @@
         </a>
     </div>
     <div class="column">
-        <a target="_blank" href="../images/Python-String-Methods.png">
-            <img src="../images/Python-String-Methods.png" alt="Python String Methods">
+        <a target="_blank" href="../images/Python-Dictionaries.png">
+            <img src="../images/Python-Dictionaries.png" alt="Python Dictionaries">
         </a>
     </div>
     <div class="column">
-        <a target="_blank" href="../images/Python-String-Methods.png">
-            <img src="../images/Python-String-Methods.png" alt="Python String Methods">
+        <a target="_blank" href="../images/Range-Function.png">
+            <img src="../images/Range-Function.png" alt="Range Function">
         </a>
     </div>
   </div>
