@@ -2,6 +2,6 @@
 layout: default
 ---
 
-![Python String Methods](/assets/images/Python-String-Methods.png)
-
-[Statistical Inference for Data Science](/assets/study-material/01-Statistical-Inference-for-Data-Science.pdf)
+[Links to study material](/assets/study-material/html/links.html)
+[Study material as images](/assets/study-material/html/images.html)
+[Study material as files](/assets/study-material/html/docfiles.html)
